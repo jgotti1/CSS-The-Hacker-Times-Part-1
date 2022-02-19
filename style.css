@@ -28,6 +28,7 @@ li, a {
     display: inline;
     color: #777;
     margin: 0 1px;
+    margin-top: -5px;
     
 }
 hr {
@@ -63,4 +64,17 @@ section#second-section {
 }
 .footer {
     text-align: center;
+}
+nav {
+    position: sticky;
+    background-color: white;
+    top: 0px;
+    border-collapse: inherit;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black
+    
+}
+ul {
+    margin-block-start: 1px;
+    margin-block-end: 1px;
 }
